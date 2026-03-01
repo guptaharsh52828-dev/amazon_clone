@@ -1,0 +1,402 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    background-color: rgb(19, 25, 33);
+    padding: 16px;
+}
+
+/* ================= ITEMS CONTAINER ================= */
+
+.Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+/* ================= LOGO ================= */
+
+.Logo {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgbrgb(19, 25, 33);
+    padding-top: 8px;
+}
+
+
+
+.Logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* ================= ADDRESS ================= */
+
+.address {
+    color: aliceblue;
+}
+
+#Country {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Where {
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+}
+
+/* ================= SEARCH AREA ================= */
+
+.Navsearch {
+    display: flex;
+    align-items: stretch;
+    height: 48px;
+    border: 2px solid #000000;
+    background-color: rgb(232, 232, 232);
+    Width: 50%;
+    border-radius: 10px;
+}
+
+.Navsearch:hover {
+    border: 2px solid #ff9900;
+}
+
+.Selector {
+    background-color: rgb(232, 232, 232);
+
+    border: none;
+    padding: 0 8px;
+    margin-right: 10px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.search-input {
+
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+
+    width: 480px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.Searchbutton {
+    background-color: #ff9900;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    height: 100%;
+    border: 2px solid #ff9900;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+
+/* ================= MENU ================= */
+
+.Content {
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+}
+
+.M1 {
+    margin-left: 24px;
+}
+
+#M11 {
+    margin-left: 0px;
+}
+
+
+.Sign-in {
+    color: aliceblue;
+}
+
+.Menu-upper {
+    font-size: 12px;
+}
+
+.Menu-lower {
+    font-weight: 800;
+
+}
+
+.Menu-upper,
+.Menu-lower {
+    margin: 0;
+    line-height: 1.2;
+}
+
+#Where {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+
+
+.COUNTRY {
+    color: rgb(255, 255, 255);
+    font-size: 1px;
+}
+
+/* ================= BUTTON ================= */
+
+.Button {
+    background-color: #ff9900;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.address i {
+    font-size: 18px;
+}
+
+.address-lower {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+
+.footer-item {
+    color: #a5a5a5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Menu {
+    background-color: rgb(35, 46, 61);
+    height: 32px;
+    padding: 8px 24px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+.Dropdown {
+    display: flex;
+    gap: 16px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.MenuInner {
+    width: 100%;
+
+}
+
+.Electronics {
+    font-weight: bold;
+    color: aliceblue;
+    white-space: nowrap;
+}
+
+.Hero {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+
+}
+
+
+.Shop {
+
+
+
+    display: flex;
+
+    justify-content: center;
+    gap: 16px;
+    margin-top: 8px;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 24px;
+
+
+
+}
+
+
+
+.Upper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    gap: 16px;
+}
+
+.Lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    gap: 16px;
+}
+
+
+
+.Box {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 16px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.05),
+        0 10px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+.image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.link {
+    color: #2261a1;
+    ;
+    text-decoration: none;
+
+}
+
+.link-text {
+    color: #2261a1;
+
+}
+
+.foot-panel1 {
+    background-color: #374758;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-panel1 ul {
+    list-style: none;
+
+}
+
+
+.foot-panel2 {
+    background-color: #242f3e;
+    color: aliceblue;
+    padding: 48px;
+    justify-content: space-between;
+
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.foot-panel2 ul {
+    list-style: none;
+
+}
+
+.footer-item {
+    margin: 4px;
+}
+
+.Ham-menu {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: white
+}
+
+.Ham-menu i {
+    font-size: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /* very important */
+}
+
+.Product-heading {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.Cart {
+
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    display: flex;
+    align-items: flex-end;
+    display: inline-flex;
+    align-content: flex-end;
+
+    justify-content: center;
+
+}
